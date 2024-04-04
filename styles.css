@@ -1,0 +1,22 @@
+.info-hover {
+  font-family: Arial, sans-serif; /* Cambia "Arial" por la fuente que prefieras */
+}
+
+.promo-title {
+  font-family: 'Roboto', sans-serif;
+}
+
+.info-hover {
+  display: none;
+  position: center;
+  background-color: #fcecfc;
+  border: 3px solid #f3cdf4;
+  padding: 10px;
+  border-radius: 5px;
+  width: 500px;
+  z-index: 1;
+}
+
+.promo-title:hover + .info-hover {
+  display: block;
+}
